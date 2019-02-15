@@ -1,0 +1,28 @@
+{
+  "name": "3d-convertor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "node --nolazy --inspect-brk=5858 ./bin/www"
+  },
+  "author": "sunjay xyzprinting",
+  "dependencies": {
+    "azure-arm-storage": "^3.2.0",
+    "azure-storage": "^2.8.2",
+    "child_process": "^1.0.2",
+    "cookie-parser": "~1.4.3",
+    "cross-spawn": "^6.0.5",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "obj2gltf": "^2.2.0",
+    "path": "^0.12.7",
+    "request": "^2.85.0",
+    "shelljs": "^0.8.1",
+    "unzip": "^0.1.11"
+  }
+}
